@@ -33,7 +33,7 @@ server <- function(input, output) {
     
     # this is admitedly sloppy because it recomputes the word cloud, but was a quick solution
     content = function(file) {
-      png(file)
+      png(file, width = 4, height = 4, units = 'in', res = 300)
       input$file$datapath %>% read.table(header = FALSE, fill = TRUE) %>%
         clean_txt() %>% 
         with(wordcloud(word, n, 

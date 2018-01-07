@@ -36,7 +36,7 @@ ui <- fluidPage(theme = shinytheme("united"),
       
       a(h4("View Source Code"), 
         target = "_blank", 
-        href = "http://www.wikipedia.org/")
+        href = "https://github.com/richpauloo/word_cloud_app")
       
     ),
     
