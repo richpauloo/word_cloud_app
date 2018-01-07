@@ -23,9 +23,6 @@ server <- function(input, output) {
     
   })
   
-  test <- reactive( { 
-    output$word_cloud
-    } )
   
   # the file to download: the word cloud
   output$down <- downloadHandler(
