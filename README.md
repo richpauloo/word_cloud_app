@@ -1,6 +1,6 @@
 # Read Me
 
-This is a simple R Shiny App that takes a **.txt** file, tokenizes all words, removes common stop words, calculates term frequency, and plots the result as a word cloud.
+This is a simple R Shiny App that takes a **.txt** file in **UTF-8 encoding**, tokenizes all words, removes common stop words, calculates term frequency, and plots the result as a word cloud.
 
 
 Users can:

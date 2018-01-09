@@ -22,7 +22,7 @@ ui <- fluidPage(theme = shinytheme("united"),
                 accept = c(".txt")),
       
       # help Text describing .txt input
-      helpText("On your computer, save a document you wish convert to a word cloud as a .txt file, and upload that .txt file here."),
+      helpText("On your computer, choose a document you wish convert to a word cloud. Save it as a .txt file in UTF-8 encoding, and upload it here."),
       
       # Horizontal Line
       tags$hr(),
